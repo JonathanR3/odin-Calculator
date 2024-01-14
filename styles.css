@@ -1,0 +1,41 @@
+body {
+    background-color: antiquewhite;
+}
+
+.display {
+    background-color: gray;
+    border: 5px solid black;
+    font-size: 60px;
+    height: 60px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 13.4%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.container {
+    text-align: center;
+    width: 13.4%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 5px solid black;
+}
+
+.row {
+    border: 1px solid transparent;
+}
+
+.key {
+    color: black;
+    background-color: bisque;
+    font-size: 60px;
+    width: 60px;
+}
+
+.key:active {
+    background-color: burlywood;
+}
